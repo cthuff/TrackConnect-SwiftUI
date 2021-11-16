@@ -14,21 +14,20 @@ struct Results: View {
 //    var event: String = "3000m Steeplechase"
 //    var result: String = "08.31.1"
     var body: some View {
-        
         ZStack {
             Color("backgroundColor")
                 .ignoresSafeArea()
             VStack{
                 Text("Results")
                     .font(.title2)
-                EventResultRow(event: event.name, place: 1, result: event.result.mark)
-                EventResultRow(event: event.name, place: 1, result: event.result.mark)
-                EventResultRow(event: event.name, place: 1, result: event.result.mark)
+                EventResultRow()
+                EventResultRow()
+                EventResultRow()
                 Text("Previous Years")
                     .font(.title2)
                     .padding(.top, 30)
-                ForEach(event.eventList, id : \.self) { item in
-                    Text(String(item))
+                ForEach(event.year, id : \.self) { item in
+                    YearlyResultRow(year: item, result: event.result.eventResult[event.result.place + 1][item - 2018])
                 }
             }
         }

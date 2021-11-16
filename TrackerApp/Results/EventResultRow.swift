@@ -9,18 +9,16 @@ import SwiftUI
 
 struct EventResultRow: View {
 
-    var event: String
-    var place: Int
-    var result: String
+    @EnvironmentObject var event: Event
     
     var body: some View {
         HStack{
-            Text(verbatim: "\(event)")
+            Text(verbatim: "\(event.name)")
             Spacer()
-            Text(verbatim: "\(place)")
+            Text(verbatim: "\(event.result.place)")
                 .bold()
             Spacer()
-            Text("\(result)")
+            Text("\(event.result.eventResult[event.result.place - 1][4])")
                 .italic()
         }
         .font(.title3)
@@ -31,12 +29,9 @@ struct EventResultRow: View {
 
 struct EventResultRow_Previews: PreviewProvider {
 
-    static var year = Calendar.current.component(.year, from: Date())
-    static var event = "3000m Steeplechase"
-    static var place = 1
-    static var result = "08:30.12"
+    static var event = Event()
     
     static var previews: some View {
-        EventResultRow(event: event, place: place, result: result)
+        EventResultRow().environmentObject(event)
     }
 }

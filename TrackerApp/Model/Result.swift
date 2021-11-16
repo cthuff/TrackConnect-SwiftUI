@@ -9,11 +9,17 @@ import Foundation
 import Combine
 
 struct Result {
-    var place: Int = 0
+    var place: Int = 95
     var mark: String = ""
-    var eventResult: [String] = [""]
     
-    mutating func load(_ filename: String) -> [String] {
+    var eventResult: Array<Array<String>> = Array<Array<String>>()
+    var year1: [String] = [String]()
+    var year2: [String] = [String]()
+    var year3: [String] = [String]()
+    var year4: [String] = [String]()
+    
+    mutating func load(_ filename: String) {
+        eventResult.removeAll()
         let file = Bundle.main.url(forResource: filename, withExtension: nil)
         let text = try! String(contentsOf: file!)
         var lines = text.components(separatedBy: "\r\n")
@@ -21,16 +27,24 @@ struct Result {
         
         for line in lines {
             let split = line.components(separatedBy: "\t")
-            //            let place = split[0]
-            let time = split[4]
-            
-            eventResult.append(time)
+            eventResult.append(split)
         }
-        eventResult.append(mark)
-        eventResult.sort()
+        eventResult.append(["", "", "", "", mark as String])
+        eventResult.sort(by: {$0[4] < $1[4]})
+        var i = 0
+        while place == 95 {
+//            for array in eventResult {
+//                place = array.firstIndex(of: mark) ?? 95
+//                if(place != 95) { break }
+//            }
+            if (eventResult[i].firstIndex(of: mark) != nil) {
+                place = i
+            } else {
+                i += 1
+            }
+        }
         
-        place = eventResult.firstIndex(of: mark) ?? 95
         
-        return eventResult
+//        return eventResult
     }
 }

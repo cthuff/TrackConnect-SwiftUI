@@ -8,6 +8,9 @@
 import SwiftUI
 
 struct CalculateButton: View {
+    
+    @EnvironmentObject var event: Event
+    
     var body: some View {
         NavigationLink(destination: Results()) {
             Label("Calculate", systemImage: "return.right")
@@ -16,11 +19,16 @@ struct CalculateButton: View {
                 .background(Color("mainColor"))
                 .cornerRadius(10)
         }
+        .simultaneousGesture(TapGesture().onEnded({
+            event.result.load("SteepleFirstRound.csv")
+        }))
     }
 }
 
 struct CalculateButton_Previews: PreviewProvider {
+    static let event = Event()
+    
     static var previews: some View {
-        CalculateButton()
+        CalculateButton().environmentObject(event)
     }
 }
