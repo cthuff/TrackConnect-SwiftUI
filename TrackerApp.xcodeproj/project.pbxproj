@@ -76,7 +76,7 @@
 				44E39437273C61A100BC115D /* Selections */,
 				44E39436273C619400BC115D /* Results */,
 				44F8E33F2740991A0009A23E /* Model */,
-				44E3943C273DC9EC00BC115D /* SteepleFirstRound.csv */,
+				44C6CB162745AED20061687D /* Resources */,
 				448804002734A7360068DD76 /* Assets.xcassets */,
 				448804022734A7360068DD76 /* Preview Content */,
 			);
@@ -89,6 +89,14 @@
 				448804032734A7360068DD76 /* Preview Assets.xcassets */,
 			);
 			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		44C6CB162745AED20061687D /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				44E3943C273DC9EC00BC115D /* SteepleFirstRound.csv */,
+			);
+			path = Resources;
 			sourceTree = "<group>";
 		};
 		44E39436273C619400BC115D /* Results */ = {
