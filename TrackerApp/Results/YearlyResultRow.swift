@@ -27,6 +27,8 @@ struct YearlyResultRow: View {
 }
 
 struct YearlyResultRow_Previews: PreviewProvider {
+    
+    //Test data to be sent across. Could be an environemnt variable too
     static var year = Calendar.current.component(.year, from: Date())
     static var result = "08:30.12"
     

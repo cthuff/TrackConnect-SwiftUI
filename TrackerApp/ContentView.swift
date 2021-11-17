@@ -27,7 +27,6 @@ struct ContentView: View {
                 }
                 .foregroundColor(Color("mainColor"))
                 .offset(y: -UIScreen.main.bounds.height / 14)
-            
             }
         }
     }

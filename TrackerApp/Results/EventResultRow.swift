@@ -18,11 +18,11 @@ struct EventResultRow: View {
             Text(verbatim: "\(event.result.place)")
                 .bold()
             Spacer()
-            Text("\(event.result.eventResult[event.result.place - 1][4])")
+            Text(verbatim: "\(event.result.eventResult[event.result.place][4])")
                 .italic()
         }
         .font(.title3)
-        .padding(.horizontal, 10)
+        .padding(.horizontal, 20)
         .padding(.vertical, 5)
     }
 }

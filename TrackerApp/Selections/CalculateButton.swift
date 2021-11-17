@@ -21,6 +21,7 @@ struct CalculateButton: View {
         }
         .simultaneousGesture(TapGesture().onEnded({
             event.result.load("SteepleFirstRound.csv")
+            //handled this way becasue the tap selector was causing the load to be called anytime the screen was tapped
         }))
     }
 }

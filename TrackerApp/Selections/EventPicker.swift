@@ -12,6 +12,7 @@ struct EventPicker: View {
     
     var body: some View {
         
+        //creates the binding for the event selector and causes the view to update when the ID of the event is selected
         let eventSelector = Binding<String>(
             get: { self.event.eventList[event.id] },
             set: {
