@@ -20,8 +20,8 @@ struct ContentView: View {
                 VStack() {
                     Text("Track Calculator")
                         .font(.title.bold())
+                        .padding(.bottom, 5)
                     OptionsView()
-                        .padding(.vertical, 10)
                     EventPicker()
                         .padding(.bottom)
                 }
@@ -36,13 +36,13 @@ struct ContentView_Previews: PreviewProvider {
     
     static let event = Event()
     static var previews: some View {
-        ContentView().environmentObject(event)
+//        ContentView().environmentObject(event)
 //            .preferredColorScheme(.dark)
-//        ForEach(["iPhone SE (2nd generation)", "iPhone 13 Pro"], id: \.self) { deviceName in
-//                ContentView()
-//                        .environmentObject(event)
-//                        .previewDevice(PreviewDevice(rawValue: deviceName))
-//                        .previewDisplayName(deviceName)
-//        }
+        ForEach(["iPhone SE (2nd generation)", "iPhone 13 Pro"], id: \.self) { deviceName in
+                ContentView()
+                        .environmentObject(event)
+                        .previewDevice(PreviewDevice(rawValue: deviceName))
+                        .previewDisplayName(deviceName)
+        }
     }
 }
