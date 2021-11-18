@@ -15,22 +15,18 @@ struct EventPicker: View {
     var body: some View {
         
         //creates the binding for the event selector and causes the view to update when the ID of the event is selected
-        let eventSelector = Binding<String>(
-            get: {
-//                self.event.eventList[event.id] ?
-                trackOrField == 0 ? self.event.trackEventList[event.id] : self.event.fieldEventList[event.id]
-            },
+        let trackEventSelector = Binding<String>(
+            get: { self.event.trackEventList[event.id] },
             set: {
-                //Track Events
-                if( trackOrField == 0){
-                    self.event.id = self.event.trackEventList.firstIndex(of: $0) ?? 0
-                    self.event.name = self.event.trackEventList[self.event.id]
-                } else {
-                    //Field Events
-                    self.event.id = self.event.fieldEventList.firstIndex(of: $0) ?? 0
-                    self.event.name = self.event.fieldEventList[self.event.id]
-                }
-                
+                self.event.id = self.event.trackEventList.firstIndex(of: $0) ?? 0
+                self.event.name = self.event.trackEventList[self.event.id]
+            })
+        
+        let fieldEventSelector = Binding<String>(
+            get: { self.event.fieldEventList[event.id] },
+            set: {
+                self.event.id = self.event.fieldEventList.firstIndex(of: $0) ?? 0
+                self.event.name = self.event.fieldEventList[self.event.id]
             })
         
             VStack {
@@ -41,13 +37,15 @@ struct EventPicker: View {
                 }
                 .pickerStyle(.segmented)
                 .padding(.horizontal, 50)
+                //when the picker gets flipped, reset the ID since both variables use the same event.id tag
+                .onChange(of: trackOrField) { _ in event.id = 0}
                 
                 Text("Choose an Event: ")
                 //We need to check if they want track results or field results
                 //Multis need to go somehwere in here, could be a third option
                 if(trackOrField == 0){
                     //Track Events
-                    Picker(selection: eventSelector, label: Text("Choose an Event")
+                    Picker(selection: trackEventSelector, label: Text("Choose an Event")
                             .multilineTextAlignment(.center)) {
                         ForEach(event.trackEventList, id : \.self) { item in
                             Text(String(item))
@@ -58,7 +56,7 @@ struct EventPicker: View {
                             .clipped()
                 } else {
                     //Field Events
-                    Picker(selection: eventSelector, label: Text("Choose an Event")
+                    Picker(selection: fieldEventSelector, label: Text("Choose an Event")
                             .multilineTextAlignment(.center)) {
                         ForEach(event.fieldEventList, id : \.self) { item in
                             Text(String(item))
