@@ -11,6 +11,13 @@ import Combine
 struct Result {
     var place: Int = 95
     var mark: String = ""
+    var gender: Int = 1
+    var division: Int = 1
+    var region: Int = 1
+
+    //The solution may be to save this as a JSON with 4 Arrays + The other related events.
+    //Should be easier than trying to do 21 Switch Cases
+    //Would also make the load function much shorter 
     
     var eventResult: Array<Array<String>> = Array<Array<String>>()
     
