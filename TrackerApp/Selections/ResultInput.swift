@@ -19,6 +19,7 @@ struct ResultInput: View {
                 .multilineTextAlignment(.center)
                 .textFieldStyle(.roundedBorder)
                 .font(.body)
+                .foregroundColor(Color("textColor"))
         }
     }
 }

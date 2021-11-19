@@ -10,8 +10,6 @@ import SwiftUI
 struct EventPicker: View {
     @EnvironmentObject var event: Event
     
-    @State private var trackOrField = 0
-    
     var body: some View {
         
         //creates the binding for the event selector and causes the view to update when the ID of the event is selected
@@ -23,7 +21,7 @@ struct EventPicker: View {
             })
         
         let fieldEventSelector = Binding<String>(
-            get: { self.event.fieldEventList[event.id] },
+            get: { event.id > 8 ? self.event.fieldEventList[8] : self.event.fieldEventList[event.id]},
             set: {
                 self.event.id = self.event.fieldEventList.firstIndex(of: $0) ?? 0
                 self.event.name = self.event.fieldEventList[self.event.id]
@@ -31,19 +29,19 @@ struct EventPicker: View {
         
             VStack {
                 Text("Event Type")
-                Picker(selection: $trackOrField, label: Text("Event Type")) {
+                Picker(selection: $event.trackOrField, label: Text("Event Type")) {
                     Text("Track").tag(0)
                     Text("Field").tag(1)
                 }
                 .pickerStyle(.segmented)
                 .padding(.horizontal, 50)
                 //when the picker gets flipped, reset the ID since both variables use the same event.id tag
-                .onChange(of: trackOrField) { _ in event.id = 0}
+                .onChange(of: event.trackOrField) { _ in event.id = 0}
                 
                 Text("Choose an Event: ")
                 //We need to check if they want track results or field results
                 //Multis need to go somehwere in here, could be a third option
-                if(trackOrField == 0){
+                if(event.trackOrField == 0){
                     //Track Events
                     Picker(selection: trackEventSelector, label: Text("Choose an Event")
                             .multilineTextAlignment(.center)) {

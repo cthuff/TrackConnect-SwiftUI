@@ -11,17 +11,14 @@ struct OptionsView: View {
     
     @EnvironmentObject var event: Event
     
+    //these two variables help with the hiding of region picker when it's not needed
     @State private var showPicker = true
-    
-    //These bindings will eventally move into the result class to be called to find the result
-    @State private var gender = 1
     @State private var division = 1
-    @State private var region = 1
     
     var body: some View {
         VStack {
             Text("Gender")
-            Picker(selection: $gender, label: Text("Gender")) {
+            Picker(selection: $event.result.gender, label: Text("Gender")) {
                 Text("Male").tag(1)
                 Text("Female").tag(2)
             }
@@ -34,12 +31,14 @@ struct OptionsView: View {
             }
             //toggles the picker for Region (which is only a Division 1 thing)
             .onChange(of: division){ _ in
-                withAnimation(Animation.linear(duration: 0.25)) {
+                withAnimation(Animation.linear(duration: 0.3)) {
                     switch division {
                     case 1:
                         !showPicker ? showPicker.toggle() : nil
+                        self.event.result.division = division
                     default:
                         showPicker ? showPicker.toggle() : nil
+                        self.event.result.division = division
                     }
                                 }
             }
@@ -47,7 +46,7 @@ struct OptionsView: View {
             {
                 VStack {
                     Text("Region")
-                    Picker(selection: $region, label: Text("Region")) {
+                    Picker(selection: $event.result.region, label: Text("Region")) {
                         Text("West").tag(1)
                         Text("East").tag(2)
                     }
