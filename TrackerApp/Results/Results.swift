@@ -1,5 +1,5 @@
 //
-//  ResultsView.swift
+//  Results.swift
 //  TrackerApp
 //
 //  Created by Craig on 11/9/21.

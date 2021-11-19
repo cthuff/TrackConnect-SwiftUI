@@ -13,8 +13,8 @@ struct ResultInput: View {
     
     var body: some View {
         VStack {
-            Text("Enter Your Result")
-            TextField("Result", text: $event.result.mark)
+            Text("Enter Your Mark")
+            TextField("Mark", text: $event.result.mark)
                 .frame(width: 200, alignment: .center)
                 .multilineTextAlignment(.center)
                 .textFieldStyle(.roundedBorder)

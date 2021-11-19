@@ -20,7 +20,7 @@ struct CalculateButton: View {
                 .cornerRadius(10)
         }
         .simultaneousGesture(TapGesture().onEnded({
-            event.trackOrField == 0 ? event.result.load(event.trackCSV[event.trackEventList.firstIndex(of: event.name) ?? 1]) : event.result.load(event.fieldCSV[event.fieldCSV.firstIndex(of: event.name) ?? 1])
+            event.trackOrField == 0 ? event.result.load(event.trackCSV[event.id]) : event.result.load(event.fieldCSV[event.id])
             //handled this way becasue the tap selector was causing the load to be called anytime the screen was tapped
         }))
     }

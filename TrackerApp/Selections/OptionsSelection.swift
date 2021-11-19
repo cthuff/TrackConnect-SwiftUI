@@ -59,7 +59,8 @@ struct OptionsView: View {
         }
         .padding(.horizontal, 50)
         .pickerStyle(.segmented)
-        
+        //Leaving this disabled until I can load all of the other results properly 
+        .disabled(true)
     }
 }
 

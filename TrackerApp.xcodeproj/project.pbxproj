@@ -7,6 +7,26 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		444E284D27472E7400C52552 /* 400HFirstRound.csv in Resources */ = {isa = PBXBuildFile; fileRef = 444E283927472E7300C52552 /* 400HFirstRound.csv */; };
+		444E284E27472E7400C52552 /* 4x400FirstRound.csv in Resources */ = {isa = PBXBuildFile; fileRef = 444E283A27472E7300C52552 /* 4x400FirstRound.csv */; };
+		444E284F27472E7400C52552 /* DiscusFirstRound.csv in Resources */ = {isa = PBXBuildFile; fileRef = 444E283B27472E7300C52552 /* DiscusFirstRound.csv */; };
+		444E285027472E7400C52552 /* ShotPutFirstRound.csv in Resources */ = {isa = PBXBuildFile; fileRef = 444E283C27472E7300C52552 /* ShotPutFirstRound.csv */; };
+		444E285127472E7400C52552 /* 5kFirstRound.csv in Resources */ = {isa = PBXBuildFile; fileRef = 444E283D27472E7300C52552 /* 5kFirstRound.csv */; };
+		444E285227472E7400C52552 /* 10kFirstRound.csv in Resources */ = {isa = PBXBuildFile; fileRef = 444E283E27472E7300C52552 /* 10kFirstRound.csv */; };
+		444E285327472E7400C52552 /* 200FirstRound.csv in Resources */ = {isa = PBXBuildFile; fileRef = 444E283F27472E7300C52552 /* 200FirstRound.csv */; };
+		444E285427472E7400C52552 /* 110HFirstRound.csv in Resources */ = {isa = PBXBuildFile; fileRef = 444E284027472E7300C52552 /* 110HFirstRound.csv */; };
+		444E285527472E7400C52552 /* SteepleFirstRound.csv in Resources */ = {isa = PBXBuildFile; fileRef = 444E284127472E7300C52552 /* SteepleFirstRound.csv */; };
+		444E285627472E7400C52552 /* TripleJumpFirstRound.csv in Resources */ = {isa = PBXBuildFile; fileRef = 444E284227472E7300C52552 /* TripleJumpFirstRound.csv */; };
+		444E285727472E7400C52552 /* 400FirstRound.csv in Resources */ = {isa = PBXBuildFile; fileRef = 444E284327472E7300C52552 /* 400FirstRound.csv */; };
+		444E285827472E7400C52552 /* JavelinFirstRound.csv in Resources */ = {isa = PBXBuildFile; fileRef = 444E284427472E7300C52552 /* JavelinFirstRound.csv */; };
+		444E285927472E7400C52552 /* 1500FirstRound.csv in Resources */ = {isa = PBXBuildFile; fileRef = 444E284527472E7300C52552 /* 1500FirstRound.csv */; };
+		444E285A27472E7400C52552 /* HammerThrowFirstRound.csv in Resources */ = {isa = PBXBuildFile; fileRef = 444E284627472E7300C52552 /* HammerThrowFirstRound.csv */; };
+		444E285B27472E7400C52552 /* HighJumpFirstRound.csv in Resources */ = {isa = PBXBuildFile; fileRef = 444E284727472E7300C52552 /* HighJumpFirstRound.csv */; };
+		444E285C27472E7400C52552 /* 800FirstRound.csv in Resources */ = {isa = PBXBuildFile; fileRef = 444E284827472E7400C52552 /* 800FirstRound.csv */; };
+		444E285D27472E7400C52552 /* 4x100FirstRound.csv in Resources */ = {isa = PBXBuildFile; fileRef = 444E284927472E7400C52552 /* 4x100FirstRound.csv */; };
+		444E285E27472E7400C52552 /* 100FirstRound.csv in Resources */ = {isa = PBXBuildFile; fileRef = 444E284A27472E7400C52552 /* 100FirstRound.csv */; };
+		444E285F27472E7400C52552 /* LongJumpFirstRound.csv in Resources */ = {isa = PBXBuildFile; fileRef = 444E284B27472E7400C52552 /* LongJumpFirstRound.csv */; };
+		444E286027472E7400C52552 /* PoleVaultFirstRound.csv in Resources */ = {isa = PBXBuildFile; fileRef = 444E284C27472E7400C52552 /* PoleVaultFirstRound.csv */; };
 		448803FD2734A7340068DD76 /* TrackerApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 448803FC2734A7340068DD76 /* TrackerApp.swift */; };
 		448803FF2734A7340068DD76 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 448803FE2734A7340068DD76 /* ContentView.swift */; };
 		448804012734A7360068DD76 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 448804002734A7360068DD76 /* Assets.xcassets */; };
@@ -17,13 +37,32 @@
 		44E39435273C5D2F00BC115D /* CalculateButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = 44E39434273C5D2F00BC115D /* CalculateButton.swift */; };
 		44E39439273C61DF00BC115D /* ResultInput.swift in Sources */ = {isa = PBXBuildFile; fileRef = 44E39438273C61DF00BC115D /* ResultInput.swift */; };
 		44E3943B273D9A9300BC115D /* Event.swift in Sources */ = {isa = PBXBuildFile; fileRef = 44E3943A273D9A9300BC115D /* Event.swift */; };
-		44E3943D273DC9ED00BC115D /* SteepleFirstRound.csv in Resources */ = {isa = PBXBuildFile; fileRef = 44E3943C273DC9EC00BC115D /* SteepleFirstRound.csv */; };
 		44E820DF27358C1600C853B0 /* OptionsSelection.swift in Sources */ = {isa = PBXBuildFile; fileRef = 44E820DE27358C1600C853B0 /* OptionsSelection.swift */; };
 		44E820E12735FC9300C853B0 /* EventPicker.swift in Sources */ = {isa = PBXBuildFile; fileRef = 44E820E02735FC9300C853B0 /* EventPicker.swift */; };
 		44F8E33E274095320009A23E /* Result.swift in Sources */ = {isa = PBXBuildFile; fileRef = 44F8E33D274095320009A23E /* Result.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		444E283927472E7300C52552 /* 400HFirstRound.csv */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = 400HFirstRound.csv; sourceTree = "<group>"; };
+		444E283A27472E7300C52552 /* 4x400FirstRound.csv */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = 4x400FirstRound.csv; sourceTree = "<group>"; };
+		444E283B27472E7300C52552 /* DiscusFirstRound.csv */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = DiscusFirstRound.csv; sourceTree = "<group>"; };
+		444E283C27472E7300C52552 /* ShotPutFirstRound.csv */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = ShotPutFirstRound.csv; sourceTree = "<group>"; };
+		444E283D27472E7300C52552 /* 5kFirstRound.csv */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = 5kFirstRound.csv; sourceTree = "<group>"; };
+		444E283E27472E7300C52552 /* 10kFirstRound.csv */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = 10kFirstRound.csv; sourceTree = "<group>"; };
+		444E283F27472E7300C52552 /* 200FirstRound.csv */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = 200FirstRound.csv; sourceTree = "<group>"; };
+		444E284027472E7300C52552 /* 110HFirstRound.csv */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = 110HFirstRound.csv; sourceTree = "<group>"; };
+		444E284127472E7300C52552 /* SteepleFirstRound.csv */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; name = SteepleFirstRound.csv; path = "../../../TrackConnect-Origin/NCAA-XC-Table/SteepleFirstRound.csv"; sourceTree = "<group>"; };
+		444E284227472E7300C52552 /* TripleJumpFirstRound.csv */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = TripleJumpFirstRound.csv; sourceTree = "<group>"; };
+		444E284327472E7300C52552 /* 400FirstRound.csv */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = 400FirstRound.csv; sourceTree = "<group>"; };
+		444E284427472E7300C52552 /* JavelinFirstRound.csv */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = JavelinFirstRound.csv; sourceTree = "<group>"; };
+		444E284527472E7300C52552 /* 1500FirstRound.csv */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = 1500FirstRound.csv; sourceTree = "<group>"; };
+		444E284627472E7300C52552 /* HammerThrowFirstRound.csv */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = HammerThrowFirstRound.csv; sourceTree = "<group>"; };
+		444E284727472E7300C52552 /* HighJumpFirstRound.csv */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = HighJumpFirstRound.csv; sourceTree = "<group>"; };
+		444E284827472E7400C52552 /* 800FirstRound.csv */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = 800FirstRound.csv; sourceTree = "<group>"; };
+		444E284927472E7400C52552 /* 4x100FirstRound.csv */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = 4x100FirstRound.csv; sourceTree = "<group>"; };
+		444E284A27472E7400C52552 /* 100FirstRound.csv */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = 100FirstRound.csv; sourceTree = "<group>"; };
+		444E284B27472E7400C52552 /* LongJumpFirstRound.csv */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = LongJumpFirstRound.csv; sourceTree = "<group>"; };
+		444E284C27472E7400C52552 /* PoleVaultFirstRound.csv */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = PoleVaultFirstRound.csv; sourceTree = "<group>"; };
 		448803F92734A7340068DD76 /* TrackerApp.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = TrackerApp.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		448803FC2734A7340068DD76 /* TrackerApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TrackerApp.swift; sourceTree = "<group>"; };
 		448803FE2734A7340068DD76 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
@@ -35,7 +74,6 @@
 		44E39434273C5D2F00BC115D /* CalculateButton.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CalculateButton.swift; sourceTree = "<group>"; };
 		44E39438273C61DF00BC115D /* ResultInput.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ResultInput.swift; sourceTree = "<group>"; };
 		44E3943A273D9A9300BC115D /* Event.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Event.swift; sourceTree = "<group>"; };
-		44E3943C273DC9EC00BC115D /* SteepleFirstRound.csv */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = SteepleFirstRound.csv; sourceTree = "<group>"; };
 		44E820DE27358C1600C853B0 /* OptionsSelection.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OptionsSelection.swift; sourceTree = "<group>"; };
 		44E820E02735FC9300C853B0 /* EventPicker.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EventPicker.swift; sourceTree = "<group>"; };
 		44F8E33D274095320009A23E /* Result.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Result.swift; sourceTree = "<group>"; };
@@ -94,7 +132,26 @@
 		44C6CB162745AED20061687D /* Resources */ = {
 			isa = PBXGroup;
 			children = (
-				44E3943C273DC9EC00BC115D /* SteepleFirstRound.csv */,
+				444E284A27472E7400C52552 /* 100FirstRound.csv */,
+				444E284027472E7300C52552 /* 110HFirstRound.csv */,
+				444E283F27472E7300C52552 /* 200FirstRound.csv */,
+				444E284327472E7300C52552 /* 400FirstRound.csv */,
+				444E283927472E7300C52552 /* 400HFirstRound.csv */,
+				444E284827472E7400C52552 /* 800FirstRound.csv */,
+				444E284527472E7300C52552 /* 1500FirstRound.csv */,
+				444E284127472E7300C52552 /* SteepleFirstRound.csv */,
+				444E283D27472E7300C52552 /* 5kFirstRound.csv */,
+				444E283E27472E7300C52552 /* 10kFirstRound.csv */,
+				444E284927472E7400C52552 /* 4x100FirstRound.csv */,
+				444E283A27472E7300C52552 /* 4x400FirstRound.csv */,
+				444E283B27472E7300C52552 /* DiscusFirstRound.csv */,
+				444E284627472E7300C52552 /* HammerThrowFirstRound.csv */,
+				444E284727472E7300C52552 /* HighJumpFirstRound.csv */,
+				444E284427472E7300C52552 /* JavelinFirstRound.csv */,
+				444E284B27472E7400C52552 /* LongJumpFirstRound.csv */,
+				444E284227472E7300C52552 /* TripleJumpFirstRound.csv */,
+				444E284C27472E7400C52552 /* PoleVaultFirstRound.csv */,
+				444E283C27472E7300C52552 /* ShotPutFirstRound.csv */,
 			);
 			path = Resources;
 			sourceTree = "<group>";
@@ -187,9 +244,28 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				444E284E27472E7400C52552 /* 4x400FirstRound.csv in Resources */,
+				444E285527472E7400C52552 /* SteepleFirstRound.csv in Resources */,
+				444E285D27472E7400C52552 /* 4x100FirstRound.csv in Resources */,
+				444E285C27472E7400C52552 /* 800FirstRound.csv in Resources */,
+				444E285927472E7400C52552 /* 1500FirstRound.csv in Resources */,
+				444E284D27472E7400C52552 /* 400HFirstRound.csv in Resources */,
+				444E285627472E7400C52552 /* TripleJumpFirstRound.csv in Resources */,
+				444E285127472E7400C52552 /* 5kFirstRound.csv in Resources */,
+				444E286027472E7400C52552 /* PoleVaultFirstRound.csv in Resources */,
+				444E285B27472E7400C52552 /* HighJumpFirstRound.csv in Resources */,
+				444E285027472E7400C52552 /* ShotPutFirstRound.csv in Resources */,
 				448804042734A7360068DD76 /* Preview Assets.xcassets in Resources */,
-				44E3943D273DC9ED00BC115D /* SteepleFirstRound.csv in Resources */,
+				444E285E27472E7400C52552 /* 100FirstRound.csv in Resources */,
+				444E285227472E7400C52552 /* 10kFirstRound.csv in Resources */,
+				444E285F27472E7400C52552 /* LongJumpFirstRound.csv in Resources */,
 				448804012734A7360068DD76 /* Assets.xcassets in Resources */,
+				444E285427472E7400C52552 /* 110HFirstRound.csv in Resources */,
+				444E284F27472E7400C52552 /* DiscusFirstRound.csv in Resources */,
+				444E285827472E7400C52552 /* JavelinFirstRound.csv in Resources */,
+				444E285327472E7400C52552 /* 200FirstRound.csv in Resources */,
+				444E285A27472E7400C52552 /* HammerThrowFirstRound.csv in Resources */,
+				444E285727472E7400C52552 /* 400FirstRound.csv in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

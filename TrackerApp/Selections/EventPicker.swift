@@ -5,6 +5,8 @@
 //  Created by Craig on 11/5/21.
 //
 
+//**Could look into making two classes 
+
 import SwiftUI
 
 struct EventPicker: View {
@@ -12,6 +14,7 @@ struct EventPicker: View {
     
     var body: some View {
         
+        //MARK: Bindings
         //creates the binding for the event selector and causes the view to update when the ID of the event is selected
         let trackEventSelector = Binding<String>(
             get: { self.event.trackEventList[event.id] },
@@ -20,13 +23,15 @@ struct EventPicker: View {
                 self.event.name = self.event.trackEventList[self.event.id]
             })
         
+        //event.ID is a publsihed variable and each time it changes this binding gets hit to update even when no selected
+        //To prevent and index OOB, cap the variable at the size of the list, since the size won't grow
         let fieldEventSelector = Binding<String>(
-            get: { event.id > 8 ? self.event.fieldEventList[8] : self.event.fieldEventList[event.id]},
+            get: { event.id > 7 ? self.event.fieldEventList[7] : self.event.fieldEventList[event.id]},
             set: {
                 self.event.id = self.event.fieldEventList.firstIndex(of: $0) ?? 0
                 self.event.name = self.event.fieldEventList[self.event.id]
             })
-        
+        //MARK: Main View
             VStack {
                 Text("Event Type")
                 Picker(selection: $event.trackOrField, label: Text("Event Type")) {
@@ -42,7 +47,7 @@ struct EventPicker: View {
                 //We need to check if they want track results or field results
                 //Multis need to go somehwere in here, could be a third option
                 if(event.trackOrField == 0){
-                    //Track Events
+                    //MARK: Track Events
                     Picker(selection: trackEventSelector, label: Text("Choose an Event")
                             .multilineTextAlignment(.center)) {
                         ForEach(event.trackEventList, id : \.self) { item in
@@ -53,7 +58,7 @@ struct EventPicker: View {
                             .frame(height: 125, alignment: .center)
                             .clipped()
                 } else {
-                    //Field Events
+                    //MARK: Field Events
                     Picker(selection: fieldEventSelector, label: Text("Choose an Event")
                             .multilineTextAlignment(.center)) {
                         ForEach(event.fieldEventList, id : \.self) { item in
