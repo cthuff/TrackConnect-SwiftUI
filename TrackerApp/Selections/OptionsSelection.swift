@@ -11,8 +11,11 @@ struct OptionsView: View {
     
     @EnvironmentObject var event: Event
     
+    @State private var showPicker = true
+    
+    //These bindings will eventally move into the result class to be called to find the result
     @State private var gender = 1
-    @State private var divison = 1
+    @State private var division = 1
     @State private var region = 1
     
     var body: some View {
@@ -24,12 +27,23 @@ struct OptionsView: View {
             }
             
             Text("NCAA Division")
-            Picker(selection: $divison, label: Text("Divison")) {
+            Picker(selection: $division, label: Text("Division")) {
                 Text("DI").tag(1)
                 Text("DII").tag(2)
                 Text("DIII").tag(3)
             }
-            if(divison == 1)
+            //toggles the picker for Region (which is only a Division 1 thing)
+            .onChange(of: division){ _ in
+                withAnimation(Animation.linear(duration: 0.25)) {
+                    switch division {
+                    case 1:
+                        !showPicker ? showPicker.toggle() : nil
+                    default:
+                        showPicker ? showPicker.toggle() : nil
+                    }
+                                }
+            }
+            if(showPicker)
             {
                 VStack {
                     Text("Region")
@@ -38,6 +52,7 @@ struct OptionsView: View {
                         Text("East").tag(2)
                     }
                 }
+                
             }
         }
         .onAppear(){
