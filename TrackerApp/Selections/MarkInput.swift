@@ -1,5 +1,5 @@
 //
-//  ResultInput.swift
+//  MarkInput.swift
 //  TrackerApp
 //
 //  Created by Craig on 11/10/21.
@@ -7,7 +7,7 @@
 
 import SwiftUI
 
-struct ResultInput: View {
+struct MarkInput: View {
     
     @EnvironmentObject var event: Event
     
@@ -24,10 +24,10 @@ struct ResultInput: View {
     }
 }
 
-struct ResultInput_Previews: PreviewProvider {
+struct MarkInput_Previews: PreviewProvider {
     
     static let event = Event()
     static var previews: some View {
-        ResultInput().environmentObject(event)
+        MarkInput().environmentObject(event)
     }
 }

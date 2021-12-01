@@ -27,6 +27,8 @@
 		444E285E27472E7400C52552 /* 100FirstRound.csv in Resources */ = {isa = PBXBuildFile; fileRef = 444E284A27472E7400C52552 /* 100FirstRound.csv */; };
 		444E285F27472E7400C52552 /* LongJumpFirstRound.csv in Resources */ = {isa = PBXBuildFile; fileRef = 444E284B27472E7400C52552 /* LongJumpFirstRound.csv */; };
 		444E286027472E7400C52552 /* PoleVaultFirstRound.csv in Resources */ = {isa = PBXBuildFile; fileRef = 444E284C27472E7400C52552 /* PoleVaultFirstRound.csv */; };
+		444E790D274830AF003C28C4 /* FieldEvents.swift in Sources */ = {isa = PBXBuildFile; fileRef = 444E790C274830AF003C28C4 /* FieldEvents.swift */; };
+		444E790F274830BE003C28C4 /* TrackEvents.swift in Sources */ = {isa = PBXBuildFile; fileRef = 444E790E274830BE003C28C4 /* TrackEvents.swift */; };
 		448803FD2734A7340068DD76 /* TrackerApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 448803FC2734A7340068DD76 /* TrackerApp.swift */; };
 		448803FF2734A7340068DD76 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 448803FE2734A7340068DD76 /* ContentView.swift */; };
 		448804012734A7360068DD76 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 448804002734A7360068DD76 /* Assets.xcassets */; };
@@ -35,7 +37,7 @@
 		44E39431273B141400BC115D /* EventResultRow.swift in Sources */ = {isa = PBXBuildFile; fileRef = 44E39430273B141400BC115D /* EventResultRow.swift */; };
 		44E39433273C42CB00BC115D /* YearlyResultRow.swift in Sources */ = {isa = PBXBuildFile; fileRef = 44E39432273C42CB00BC115D /* YearlyResultRow.swift */; };
 		44E39435273C5D2F00BC115D /* CalculateButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = 44E39434273C5D2F00BC115D /* CalculateButton.swift */; };
-		44E39439273C61DF00BC115D /* ResultInput.swift in Sources */ = {isa = PBXBuildFile; fileRef = 44E39438273C61DF00BC115D /* ResultInput.swift */; };
+		44E39439273C61DF00BC115D /* MarkInput.swift in Sources */ = {isa = PBXBuildFile; fileRef = 44E39438273C61DF00BC115D /* MarkInput.swift */; };
 		44E3943B273D9A9300BC115D /* Event.swift in Sources */ = {isa = PBXBuildFile; fileRef = 44E3943A273D9A9300BC115D /* Event.swift */; };
 		44E820DF27358C1600C853B0 /* OptionsSelection.swift in Sources */ = {isa = PBXBuildFile; fileRef = 44E820DE27358C1600C853B0 /* OptionsSelection.swift */; };
 		44E820E12735FC9300C853B0 /* EventPicker.swift in Sources */ = {isa = PBXBuildFile; fileRef = 44E820E02735FC9300C853B0 /* EventPicker.swift */; };
@@ -63,6 +65,9 @@
 		444E284A27472E7400C52552 /* 100FirstRound.csv */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = 100FirstRound.csv; sourceTree = "<group>"; };
 		444E284B27472E7400C52552 /* LongJumpFirstRound.csv */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = LongJumpFirstRound.csv; sourceTree = "<group>"; };
 		444E284C27472E7400C52552 /* PoleVaultFirstRound.csv */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = PoleVaultFirstRound.csv; sourceTree = "<group>"; };
+		444E790C274830AF003C28C4 /* FieldEvents.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FieldEvents.swift; sourceTree = "<group>"; };
+		444E790E274830BE003C28C4 /* TrackEvents.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TrackEvents.swift; sourceTree = "<group>"; };
+		447D2A31274DB2EA00C184AF /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist; path = Info.plist; sourceTree = "<group>"; };
 		448803F92734A7340068DD76 /* TrackerApp.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = TrackerApp.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		448803FC2734A7340068DD76 /* TrackerApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TrackerApp.swift; sourceTree = "<group>"; };
 		448803FE2734A7340068DD76 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
@@ -72,7 +77,7 @@
 		44E39430273B141400BC115D /* EventResultRow.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EventResultRow.swift; sourceTree = "<group>"; };
 		44E39432273C42CB00BC115D /* YearlyResultRow.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = YearlyResultRow.swift; sourceTree = "<group>"; };
 		44E39434273C5D2F00BC115D /* CalculateButton.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CalculateButton.swift; sourceTree = "<group>"; };
-		44E39438273C61DF00BC115D /* ResultInput.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ResultInput.swift; sourceTree = "<group>"; };
+		44E39438273C61DF00BC115D /* MarkInput.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MarkInput.swift; sourceTree = "<group>"; };
 		44E3943A273D9A9300BC115D /* Event.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Event.swift; sourceTree = "<group>"; };
 		44E820DE27358C1600C853B0 /* OptionsSelection.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OptionsSelection.swift; sourceTree = "<group>"; };
 		44E820E02735FC9300C853B0 /* EventPicker.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EventPicker.swift; sourceTree = "<group>"; };
@@ -109,6 +114,7 @@
 		448803FB2734A7340068DD76 /* TrackerApp */ = {
 			isa = PBXGroup;
 			children = (
+				447D2A31274DB2EA00C184AF /* Info.plist */,
 				448803FC2734A7340068DD76 /* TrackerApp.swift */,
 				448803FE2734A7340068DD76 /* ContentView.swift */,
 				44E39437273C61A100BC115D /* Selections */,
@@ -171,8 +177,10 @@
 			children = (
 				44E820DE27358C1600C853B0 /* OptionsSelection.swift */,
 				44E820E02735FC9300C853B0 /* EventPicker.swift */,
+				444E790C274830AF003C28C4 /* FieldEvents.swift */,
+				444E790E274830BE003C28C4 /* TrackEvents.swift */,
 				44E39434273C5D2F00BC115D /* CalculateButton.swift */,
-				44E39438273C61DF00BC115D /* ResultInput.swift */,
+				44E39438273C61DF00BC115D /* MarkInput.swift */,
 			);
 			path = Selections;
 			sourceTree = "<group>";
@@ -281,12 +289,14 @@
 				44E39433273C42CB00BC115D /* YearlyResultRow.swift in Sources */,
 				44E3942F273B127E00BC115D /* Results.swift in Sources */,
 				44E820DF27358C1600C853B0 /* OptionsSelection.swift in Sources */,
-				44E39439273C61DF00BC115D /* ResultInput.swift in Sources */,
+				44E39439273C61DF00BC115D /* MarkInput.swift in Sources */,
 				448803FF2734A7340068DD76 /* ContentView.swift in Sources */,
 				448803FD2734A7340068DD76 /* TrackerApp.swift in Sources */,
+				444E790F274830BE003C28C4 /* TrackEvents.swift in Sources */,
 				44E39435273C5D2F00BC115D /* CalculateButton.swift in Sources */,
 				44E39431273B141400BC115D /* EventResultRow.swift in Sources */,
 				44F8E33E274095320009A23E /* Result.swift in Sources */,
+				444E790D274830AF003C28C4 /* FieldEvents.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -417,8 +427,10 @@
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
 				DEVELOPMENT_ASSET_PATHS = "\"TrackerApp/Preview Content\"";
+				DEVELOPMENT_TEAM = PK5UZ58Q86;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = TrackerApp/Info.plist;
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
@@ -430,7 +442,7 @@
 				);
 				MARKETING_VERSION = 1.0;
 				PRODUCT_BUNDLE_IDENTIFIER = test.warehousesports.TrackerApp;
-				PRODUCT_NAME = "$(TARGET_NAME)";
+				PRODUCT_NAME = TrackerApp;
 				SWIFT_EMIT_LOC_STRINGS = YES;
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
@@ -445,8 +457,10 @@
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
 				DEVELOPMENT_ASSET_PATHS = "\"TrackerApp/Preview Content\"";
+				DEVELOPMENT_TEAM = PK5UZ58Q86;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = TrackerApp/Info.plist;
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
@@ -458,7 +472,7 @@
 				);
 				MARKETING_VERSION = 1.0;
 				PRODUCT_BUNDLE_IDENTIFIER = test.warehousesports.TrackerApp;
-				PRODUCT_NAME = "$(TARGET_NAME)";
+				PRODUCT_NAME = TrackerApp;
 				SWIFT_EMIT_LOC_STRINGS = YES;
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";

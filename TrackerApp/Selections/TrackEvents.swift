@@ -28,7 +28,7 @@ struct TrackEvents: View {
             }
         }
                 .pickerStyle(.wheel)
-                .frame(height: 125, alignment: .center)
+                .frame(height: 95, alignment: .center)
                 .clipped()
     }
 }

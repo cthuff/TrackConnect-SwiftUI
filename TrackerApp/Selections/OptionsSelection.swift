@@ -31,7 +31,7 @@ struct OptionsView: View {
             }
             //toggles the picker for Region (which is only a Division 1 thing)
             .onChange(of: division){ _ in
-                withAnimation(Animation.linear(duration: 0.3)) {
+                withAnimation(Animation.linear(duration: 0.25)) {
                     switch division {
                     case 1:
                         !showPicker ? showPicker.toggle() : nil
@@ -60,7 +60,7 @@ struct OptionsView: View {
         .padding(.horizontal, 50)
         .pickerStyle(.segmented)
         //Leaving this disabled until I can load all of the other results properly 
-        .disabled(true)
+//        .disabled(true)
     }
 }
 
