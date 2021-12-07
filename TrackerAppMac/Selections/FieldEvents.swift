@@ -27,9 +27,6 @@ struct FieldEvents: View {
                 Text(String(item))
             }
         }
-//                .pickerStyle(.wheel)
-//                .frame(height: 95, alignment: .center)
-//                .clipped()
     }
 }
 

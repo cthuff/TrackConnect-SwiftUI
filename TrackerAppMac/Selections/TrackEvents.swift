@@ -27,10 +27,6 @@ struct TrackEvents: View {
                 Text(String(item))
             }
         }
-//                .padding(.trailing, 50)
-////                .pickerStyle(.wheel)
-//                .frame(height: 95, alignment: .center)
-//                .clipped()
     }
 }
 

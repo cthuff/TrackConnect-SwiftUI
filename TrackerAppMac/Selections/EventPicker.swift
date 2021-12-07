@@ -21,7 +21,6 @@ struct EventPicker: View {
                     Text("Field").tag(1)
                 }
                 .pickerStyle(.segmented)
-                .padding(.horizontal, 50)
                 .padding(.bottom, 15)
                 //when the picker gets flipped, reset the ID since both variables use the same event.id tag
                 .onChange(of: event.trackOrField) { _ in event.id = 0}
@@ -35,10 +34,10 @@ struct EventPicker: View {
                     FieldEvents()
                 }
                 MarkInput()
-                    
-//                    .padding(.bottom, UIScreen.main.bounds.height > 0 ? 10 : 100)
                 CalculateButton()
+                    .padding(.vertical, 10)
         }
+            .padding(.horizontal, 50)
     }
 }
 

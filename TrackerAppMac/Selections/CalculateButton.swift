@@ -10,24 +10,21 @@ import SwiftUI
 struct CalculateButton: View {
     
     @EnvironmentObject var event: Event
+    @State private var selection: String? = nil
     
     var body: some View {
-        NavigationLink(destination: Results()) {
-            Label("Calculate", systemImage: "return.right")
-                .padding(10)
-                .foregroundColor(.white)
-                .background(Color("mainColor"))
-                .cornerRadius(10)
-                .clipped()
-                .onTapGesture(count: 1) {
-                    event.trackOrField == 0 ? event.result.load(event.trackCSV[event.id]) : event.result.load(event.fieldCSV[event.id])
+        ZStack{
+            NavigationLink(destination: Results(), tag: "Results", selection: $selection) { EmptyView() }.hidden()
+            Button(action: {
+                event.trackOrField == 0 ? event.result.load(event.trackCSV[event.id]) : event.result.load(event.fieldCSV[event.id])
+                self.selection = "Results"
+            }, label: {
+                HStack {
+                    Image(systemName: "return.right")
+                    Text("Calculate")
                 }
+            })
         }
-//        .simultaneousGesture()
-//        .simultaneousGesture(TapGesture().onEnded({
-//            event.trackOrField == 0 ? event.result.load(event.trackCSV[event.id]) : event.result.load(event.fieldCSV[event.id])
-            //handled this way becasue the tap selector was causing the load to be called anytime the screen was tapped
-//        }))
     }
 }
 

@@ -10,8 +10,8 @@ import Combine
 
 final class Event: ObservableObject {
     var name: String = String()
-    @Published var id: Int = Int()
-    var result: Result = Result()
+    var id: Int = Int()
+    @Published var result: Result = Result()
     var placement: Int = Int()
     @Published var trackOrField : Int = Int()
     

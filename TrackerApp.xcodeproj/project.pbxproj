@@ -7,6 +7,37 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		4431F4E3275ED3C400B8621A /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 4431F4E2275ED3C400B8621A /* Assets.xcassets */; };
+		4431F4E6275ED3C400B8621A /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 4431F4E5275ED3C400B8621A /* Preview Assets.xcassets */; };
+		4431F4EB275ED40700B8621A /* 1500FirstRound.csv in Resources */ = {isa = PBXBuildFile; fileRef = 444E284527472E7300C52552 /* 1500FirstRound.csv */; };
+		4431F4EC275ED40700B8621A /* 200FirstRound.csv in Resources */ = {isa = PBXBuildFile; fileRef = 444E283F27472E7300C52552 /* 200FirstRound.csv */; };
+		4431F4ED275ED40700B8621A /* 400HFirstRound.csv in Resources */ = {isa = PBXBuildFile; fileRef = 444E283927472E7300C52552 /* 400HFirstRound.csv */; };
+		4431F4EE275ED40700B8621A /* 5kFirstRound.csv in Resources */ = {isa = PBXBuildFile; fileRef = 444E283D27472E7300C52552 /* 5kFirstRound.csv */; };
+		4431F4EF275ED40700B8621A /* PoleVaultFirstRound.csv in Resources */ = {isa = PBXBuildFile; fileRef = 444E284C27472E7400C52552 /* PoleVaultFirstRound.csv */; };
+		4431F4F0275ED40700B8621A /* 110HFirstRound.csv in Resources */ = {isa = PBXBuildFile; fileRef = 444E284027472E7300C52552 /* 110HFirstRound.csv */; };
+		4431F4F1275ED40700B8621A /* HighJumpFirstRound.csv in Resources */ = {isa = PBXBuildFile; fileRef = 444E284727472E7300C52552 /* HighJumpFirstRound.csv */; };
+		4431F4F2275ED40700B8621A /* SteepleFirstRound.csv in Resources */ = {isa = PBXBuildFile; fileRef = 444E284127472E7300C52552 /* SteepleFirstRound.csv */; };
+		4431F4F3275ED40700B8621A /* 400FirstRound.csv in Resources */ = {isa = PBXBuildFile; fileRef = 444E284327472E7300C52552 /* 400FirstRound.csv */; };
+		4431F4F4275ED40700B8621A /* 800FirstRound.csv in Resources */ = {isa = PBXBuildFile; fileRef = 444E284827472E7400C52552 /* 800FirstRound.csv */; };
+		4431F4F5275ED40700B8621A /* HammerThrowFirstRound.csv in Resources */ = {isa = PBXBuildFile; fileRef = 444E284627472E7300C52552 /* HammerThrowFirstRound.csv */; };
+		4431F4F6275ED40700B8621A /* LongJumpFirstRound.csv in Resources */ = {isa = PBXBuildFile; fileRef = 444E284B27472E7400C52552 /* LongJumpFirstRound.csv */; };
+		4431F4F7275ED40700B8621A /* 4x100FirstRound.csv in Resources */ = {isa = PBXBuildFile; fileRef = 444E284927472E7400C52552 /* 4x100FirstRound.csv */; };
+		4431F4F8275ED40700B8621A /* TripleJumpFirstRound.csv in Resources */ = {isa = PBXBuildFile; fileRef = 444E284227472E7300C52552 /* TripleJumpFirstRound.csv */; };
+		4431F4F9275ED40700B8621A /* DiscusFirstRound.csv in Resources */ = {isa = PBXBuildFile; fileRef = 444E283B27472E7300C52552 /* DiscusFirstRound.csv */; };
+		4431F4FA275ED40700B8621A /* ShotPutFirstRound.csv in Resources */ = {isa = PBXBuildFile; fileRef = 444E283C27472E7300C52552 /* ShotPutFirstRound.csv */; };
+		4431F4FB275ED40700B8621A /* JavelinFirstRound.csv in Resources */ = {isa = PBXBuildFile; fileRef = 444E284427472E7300C52552 /* JavelinFirstRound.csv */; };
+		4431F4FC275ED40700B8621A /* 4x400FirstRound.csv in Resources */ = {isa = PBXBuildFile; fileRef = 444E283A27472E7300C52552 /* 4x400FirstRound.csv */; };
+		4431F4FD275ED40700B8621A /* 100FirstRound.csv in Resources */ = {isa = PBXBuildFile; fileRef = 444E284A27472E7400C52552 /* 100FirstRound.csv */; };
+		4431F4FE275ED40700B8621A /* 10kFirstRound.csv in Resources */ = {isa = PBXBuildFile; fileRef = 444E283E27472E7300C52552 /* 10kFirstRound.csv */; };
+		4431F50A275ED41300B8621A /* TrackerApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 448803FC2734A7340068DD76 /* TrackerApp.swift */; };
+		4431F511275ED49500B8621A /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4431F510275ED49500B8621A /* ContentView.swift */; };
+		4431F528275ED98000B8621A /* Results.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4431F525275ED97F00B8621A /* Results.swift */; };
+		4431F52B275ED98000B8621A /* CalculateButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4431F523275ED97F00B8621A /* CalculateButton.swift */; };
+		4431F52D275ED98000B8621A /* OptionsSelection.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4431F522275ED97F00B8621A /* OptionsSelection.swift */; };
+		4431F52F275ED98000B8621A /* EventResultRow.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4431F526275ED98000B8621A /* EventResultRow.swift */; };
+		4431F530275ED98000B8621A /* EventPicker.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4431F521275ED97F00B8621A /* EventPicker.swift */; };
+		4431F531275ED98000B8621A /* FieldEvents.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4431F51E275ED97F00B8621A /* FieldEvents.swift */; };
+		4431F532275ED98000B8621A /* TrackEvents.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4431F51F275ED97F00B8621A /* TrackEvents.swift */; };
 		444E284D27472E7400C52552 /* 400HFirstRound.csv in Resources */ = {isa = PBXBuildFile; fileRef = 444E283927472E7300C52552 /* 400HFirstRound.csv */; };
 		444E284E27472E7400C52552 /* 4x400FirstRound.csv in Resources */ = {isa = PBXBuildFile; fileRef = 444E283A27472E7300C52552 /* 4x400FirstRound.csv */; };
 		444E284F27472E7400C52552 /* DiscusFirstRound.csv in Resources */ = {isa = PBXBuildFile; fileRef = 444E283B27472E7300C52552 /* DiscusFirstRound.csv */; };
@@ -33,6 +64,11 @@
 		448803FF2734A7340068DD76 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 448803FE2734A7340068DD76 /* ContentView.swift */; };
 		448804012734A7360068DD76 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 448804002734A7360068DD76 /* Assets.xcassets */; };
 		448804042734A7360068DD76 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 448804032734A7360068DD76 /* Preview Assets.xcassets */; };
+		44D0B477275FCAB700DB4DA3 /* YearlyResultRow.swift in Sources */ = {isa = PBXBuildFile; fileRef = 44E39432273C42CB00BC115D /* YearlyResultRow.swift */; };
+		44D0B478275FCAD500DB4DA3 /* Result.swift in Sources */ = {isa = PBXBuildFile; fileRef = 44F8E33D274095320009A23E /* Result.swift */; };
+		44D0B479275FCAD500DB4DA3 /* Event.swift in Sources */ = {isa = PBXBuildFile; fileRef = 44E3943A273D9A9300BC115D /* Event.swift */; };
+		44D0B47A275FCB1E00DB4DA3 /* MarkInput.swift in Sources */ = {isa = PBXBuildFile; fileRef = 44E39438273C61DF00BC115D /* MarkInput.swift */; };
+		44D0B47C275FF09500DB4DA3 /* TestView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 44D0B47B275FF09500DB4DA3 /* TestView.swift */; };
 		44E3942F273B127E00BC115D /* Results.swift in Sources */ = {isa = PBXBuildFile; fileRef = 44E3942E273B127E00BC115D /* Results.swift */; };
 		44E39431273B141400BC115D /* EventResultRow.swift in Sources */ = {isa = PBXBuildFile; fileRef = 44E39430273B141400BC115D /* EventResultRow.swift */; };
 		44E39433273C42CB00BC115D /* YearlyResultRow.swift in Sources */ = {isa = PBXBuildFile; fileRef = 44E39432273C42CB00BC115D /* YearlyResultRow.swift */; };
@@ -45,6 +81,18 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		4431F4DC275ED3C300B8621A /* TrackerAppMac.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = TrackerAppMac.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		4431F4E2275ED3C400B8621A /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		4431F4E5275ED3C400B8621A /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		4431F4E7275ED3C400B8621A /* TrackerAppMac.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = TrackerAppMac.entitlements; sourceTree = "<group>"; };
+		4431F510275ED49500B8621A /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		4431F51E275ED97F00B8621A /* FieldEvents.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FieldEvents.swift; sourceTree = "<group>"; };
+		4431F51F275ED97F00B8621A /* TrackEvents.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TrackEvents.swift; sourceTree = "<group>"; };
+		4431F521275ED97F00B8621A /* EventPicker.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EventPicker.swift; sourceTree = "<group>"; };
+		4431F522275ED97F00B8621A /* OptionsSelection.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OptionsSelection.swift; sourceTree = "<group>"; };
+		4431F523275ED97F00B8621A /* CalculateButton.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CalculateButton.swift; sourceTree = "<group>"; };
+		4431F525275ED97F00B8621A /* Results.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Results.swift; sourceTree = "<group>"; };
+		4431F526275ED98000B8621A /* EventResultRow.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EventResultRow.swift; sourceTree = "<group>"; };
 		444E283927472E7300C52552 /* 400HFirstRound.csv */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = 400HFirstRound.csv; sourceTree = "<group>"; };
 		444E283A27472E7300C52552 /* 4x400FirstRound.csv */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = 4x400FirstRound.csv; sourceTree = "<group>"; };
 		444E283B27472E7300C52552 /* DiscusFirstRound.csv */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = DiscusFirstRound.csv; sourceTree = "<group>"; };
@@ -73,6 +121,7 @@
 		448803FE2734A7340068DD76 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
 		448804002734A7360068DD76 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		448804032734A7360068DD76 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		44D0B47B275FF09500DB4DA3 /* TestView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TestView.swift; sourceTree = "<group>"; };
 		44E3942E273B127E00BC115D /* Results.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Results.swift; sourceTree = "<group>"; };
 		44E39430273B141400BC115D /* EventResultRow.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EventResultRow.swift; sourceTree = "<group>"; };
 		44E39432273C42CB00BC115D /* YearlyResultRow.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = YearlyResultRow.swift; sourceTree = "<group>"; };
@@ -85,6 +134,13 @@
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
+		4431F4D9275ED3C300B8621A /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 		448803F62734A7340068DD76 /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
@@ -95,10 +151,54 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		4431F4DD275ED3C300B8621A /* TrackerAppMac */ = {
+			isa = PBXGroup;
+			children = (
+				4431F510275ED49500B8621A /* ContentView.swift */,
+				4431F51D275ED97F00B8621A /* Selections */,
+				4431F524275ED97F00B8621A /* Results */,
+				4431F4E2275ED3C400B8621A /* Assets.xcassets */,
+				4431F4E7275ED3C400B8621A /* TrackerAppMac.entitlements */,
+				4431F4E4275ED3C400B8621A /* Preview Content */,
+			);
+			path = TrackerAppMac;
+			sourceTree = "<group>";
+		};
+		4431F4E4275ED3C400B8621A /* Preview Content */ = {
+			isa = PBXGroup;
+			children = (
+				4431F4E5275ED3C400B8621A /* Preview Assets.xcassets */,
+			);
+			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		4431F51D275ED97F00B8621A /* Selections */ = {
+			isa = PBXGroup;
+			children = (
+				4431F522275ED97F00B8621A /* OptionsSelection.swift */,
+				4431F521275ED97F00B8621A /* EventPicker.swift */,
+				4431F51E275ED97F00B8621A /* FieldEvents.swift */,
+				4431F51F275ED97F00B8621A /* TrackEvents.swift */,
+				4431F523275ED97F00B8621A /* CalculateButton.swift */,
+			);
+			path = Selections;
+			sourceTree = "<group>";
+		};
+		4431F524275ED97F00B8621A /* Results */ = {
+			isa = PBXGroup;
+			children = (
+				4431F525275ED97F00B8621A /* Results.swift */,
+				4431F526275ED98000B8621A /* EventResultRow.swift */,
+				44D0B47B275FF09500DB4DA3 /* TestView.swift */,
+			);
+			path = Results;
+			sourceTree = "<group>";
+		};
 		448803F02734A7340068DD76 = {
 			isa = PBXGroup;
 			children = (
 				448803FB2734A7340068DD76 /* TrackerApp */,
+				4431F4DD275ED3C300B8621A /* TrackerAppMac */,
 				448803FA2734A7340068DD76 /* Products */,
 			);
 			sourceTree = "<group>";
@@ -107,6 +207,7 @@
 			isa = PBXGroup;
 			children = (
 				448803F92734A7340068DD76 /* TrackerApp.app */,
+				4431F4DC275ED3C300B8621A /* TrackerAppMac.app */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -197,6 +298,23 @@
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
+		4431F4DB275ED3C300B8621A /* TrackerAppMac */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 4431F4EA275ED3C400B8621A /* Build configuration list for PBXNativeTarget "TrackerAppMac" */;
+			buildPhases = (
+				4431F4D8275ED3C300B8621A /* Sources */,
+				4431F4D9275ED3C300B8621A /* Frameworks */,
+				4431F4DA275ED3C300B8621A /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = TrackerAppMac;
+			productName = TrackerAppMac;
+			productReference = 4431F4DC275ED3C300B8621A /* TrackerAppMac.app */;
+			productType = "com.apple.product-type.application";
+		};
 		448803F82734A7340068DD76 /* TrackerApp */ = {
 			isa = PBXNativeTarget;
 			buildConfigurationList = 448804072734A7360068DD76 /* Build configuration list for PBXNativeTarget "TrackerApp" */;
@@ -224,6 +342,9 @@
 				LastSwiftUpdateCheck = 1310;
 				LastUpgradeCheck = 1310;
 				TargetAttributes = {
+					4431F4DB275ED3C300B8621A = {
+						CreatedOnToolsVersion = 13.1;
+					};
 					448803F82734A7340068DD76 = {
 						CreatedOnToolsVersion = 13.1;
 					};
@@ -243,11 +364,41 @@
 			projectRoot = "";
 			targets = (
 				448803F82734A7340068DD76 /* TrackerApp */,
+				4431F4DB275ED3C300B8621A /* TrackerAppMac */,
 			);
 		};
 /* End PBXProject section */
 
 /* Begin PBXResourcesBuildPhase section */
+		4431F4DA275ED3C300B8621A /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				4431F4FB275ED40700B8621A /* JavelinFirstRound.csv in Resources */,
+				4431F4E6275ED3C400B8621A /* Preview Assets.xcassets in Resources */,
+				4431F4F3275ED40700B8621A /* 400FirstRound.csv in Resources */,
+				4431F4F5275ED40700B8621A /* HammerThrowFirstRound.csv in Resources */,
+				4431F4EC275ED40700B8621A /* 200FirstRound.csv in Resources */,
+				4431F4FC275ED40700B8621A /* 4x400FirstRound.csv in Resources */,
+				4431F4FA275ED40700B8621A /* ShotPutFirstRound.csv in Resources */,
+				4431F4EE275ED40700B8621A /* 5kFirstRound.csv in Resources */,
+				4431F4E3275ED3C400B8621A /* Assets.xcassets in Resources */,
+				4431F4ED275ED40700B8621A /* 400HFirstRound.csv in Resources */,
+				4431F4F7275ED40700B8621A /* 4x100FirstRound.csv in Resources */,
+				4431F4FE275ED40700B8621A /* 10kFirstRound.csv in Resources */,
+				4431F4FD275ED40700B8621A /* 100FirstRound.csv in Resources */,
+				4431F4F2275ED40700B8621A /* SteepleFirstRound.csv in Resources */,
+				4431F4EB275ED40700B8621A /* 1500FirstRound.csv in Resources */,
+				4431F4F1275ED40700B8621A /* HighJumpFirstRound.csv in Resources */,
+				4431F4F9275ED40700B8621A /* DiscusFirstRound.csv in Resources */,
+				4431F4F6275ED40700B8621A /* LongJumpFirstRound.csv in Resources */,
+				4431F4F0275ED40700B8621A /* 110HFirstRound.csv in Resources */,
+				4431F4EF275ED40700B8621A /* PoleVaultFirstRound.csv in Resources */,
+				4431F4F8275ED40700B8621A /* TripleJumpFirstRound.csv in Resources */,
+				4431F4F4275ED40700B8621A /* 800FirstRound.csv in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 		448803F72734A7340068DD76 /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
@@ -280,6 +431,27 @@
 /* End PBXResourcesBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
+		4431F4D8275ED3C300B8621A /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				44D0B47C275FF09500DB4DA3 /* TestView.swift in Sources */,
+				4431F52F275ED98000B8621A /* EventResultRow.swift in Sources */,
+				44D0B477275FCAB700DB4DA3 /* YearlyResultRow.swift in Sources */,
+				4431F528275ED98000B8621A /* Results.swift in Sources */,
+				44D0B47A275FCB1E00DB4DA3 /* MarkInput.swift in Sources */,
+				4431F530275ED98000B8621A /* EventPicker.swift in Sources */,
+				4431F50A275ED41300B8621A /* TrackerApp.swift in Sources */,
+				4431F52D275ED98000B8621A /* OptionsSelection.swift in Sources */,
+				44D0B478275FCAD500DB4DA3 /* Result.swift in Sources */,
+				4431F532275ED98000B8621A /* TrackEvents.swift in Sources */,
+				4431F511275ED49500B8621A /* ContentView.swift in Sources */,
+				4431F531275ED98000B8621A /* FieldEvents.swift in Sources */,
+				4431F52B275ED98000B8621A /* CalculateButton.swift in Sources */,
+				44D0B479275FCAD500DB4DA3 /* Event.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 		448803F52734A7340068DD76 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
@@ -303,6 +475,64 @@
 /* End PBXSourcesBuildPhase section */
 
 /* Begin XCBuildConfiguration section */
+		4431F4E8275ED3C400B8621A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_ENTITLEMENTS = TrackerAppMac/TrackerAppMac.entitlements;
+				CODE_SIGN_STYLE = Automatic;
+				COMBINE_HIDPI_IMAGES = YES;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"TrackerAppMac/Preview Content\"";
+				DEVELOPMENT_TEAM = PK5UZ58Q86;
+				ENABLE_HARDENED_RUNTIME = YES;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_NSHumanReadableCopyright = "";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+				);
+				MACOSX_DEPLOYMENT_TARGET = 12.0;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = test.warehousesports.TrackerAppMac;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = macosx;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+			};
+			name = Debug;
+		};
+		4431F4E9275ED3C400B8621A /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_ENTITLEMENTS = TrackerAppMac/TrackerAppMac.entitlements;
+				CODE_SIGN_STYLE = Automatic;
+				COMBINE_HIDPI_IMAGES = YES;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"TrackerAppMac/Preview Content\"";
+				DEVELOPMENT_TEAM = PK5UZ58Q86;
+				ENABLE_HARDENED_RUNTIME = YES;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_NSHumanReadableCopyright = "";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+				);
+				MACOSX_DEPLOYMENT_TARGET = 12.0;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = test.warehousesports.TrackerAppMac;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = macosx;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+			};
+			name = Release;
+		};
 		448804052734A7360068DD76 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
@@ -482,6 +712,15 @@
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
+		4431F4EA275ED3C400B8621A /* Build configuration list for PBXNativeTarget "TrackerAppMac" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				4431F4E8275ED3C400B8621A /* Debug */,
+				4431F4E9275ED3C400B8621A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
 		448803F42734A7340068DD76 /* Build configuration list for PBXProject "TrackerApp" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
